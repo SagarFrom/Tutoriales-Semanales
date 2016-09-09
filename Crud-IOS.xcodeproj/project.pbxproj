@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E62C9BEC1D81C7A800C04A50 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62C9BEB1D81C7A800C04A50 /* TodoList.swift */; };
 		E64CC0031D7F856200323FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CC0021D7F856200323FCA /* AppDelegate.swift */; };
 		E64CC0051D7F856200323FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CC0041D7F856200323FCA /* ViewController.swift */; };
 		E64CC0081D7F856200323FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64CC0061D7F856200323FCA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E62C9BEB1D81C7A800C04A50 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		E64CBFFF1D7F856200323FCA /* Crud-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crud-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64CC0021D7F856200323FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E64CC0041D7F856200323FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				E64CC0091D7F856200323FCA /* Assets.xcassets */,
 				E64CC00B1D7F856200323FCA /* LaunchScreen.storyboard */,
 				E64CC00E1D7F856200323FCA /* Info.plist */,
+				E62C9BEB1D81C7A800C04A50 /* TodoList.swift */,
 			);
 			path = "Crud-IOS";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62C9BEC1D81C7A800C04A50 /* TodoList.swift in Sources */,
 				E64CC0051D7F856200323FCA /* ViewController.swift in Sources */,
 				E64CC0031D7F856200323FCA /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				E64CC0291D7F856200323FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64CC02A1D7F856200323FCA /* Build configuration list for PBXNativeTarget "Crud-IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				E64CC02C1D7F856200323FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64CC02D1D7F856200323FCA /* Build configuration list for PBXNativeTarget "Crud-IOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				E64CC02F1D7F856200323FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

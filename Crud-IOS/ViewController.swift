@@ -9,7 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var itemTexField: UITextField!
+    @IBOutlet weak var tableview: UITableView!
+    
+    let todoList = TodoList();
+    
+    @IBAction func addButtonPressed(sender: UIButton){
+            print("Agregando un elemento a la lista:\(itemTexField.text)")
+        
+            todoList.addItem(itemTexField.text!)
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

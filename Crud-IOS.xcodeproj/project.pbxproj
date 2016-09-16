@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E602884C1D88C4CD00AA156E /* notes_online.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E602884B1D88C4CD00AA156E /* notes_online.jpg */; };
 		E62C9BEC1D81C7A800C04A50 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62C9BEB1D81C7A800C04A50 /* TodoList.swift */; };
 		E64CC0031D7F856200323FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CC0021D7F856200323FCA /* AppDelegate.swift */; };
 		E64CC0051D7F856200323FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CC0041D7F856200323FCA /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		E64CC00D1D7F856200323FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64CC00B1D7F856200323FCA /* LaunchScreen.storyboard */; };
 		E64CC0181D7F856200323FCA /* Crud_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CC0171D7F856200323FCA /* Crud_IOSTests.swift */; };
 		E64CC0231D7F856200323FCA /* Crud_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CC0221D7F856200323FCA /* Crud_IOSUITests.swift */; };
+		E6994EC31D8BD2E30037688D /* LauchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6994EC21D8BD2E30037688D /* LauchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E602884B1D88C4CD00AA156E /* notes_online.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = notes_online.jpg; path = ../../../../Downloads/notes_online.jpg; sourceTree = "<group>"; };
 		E62C9BEB1D81C7A800C04A50 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		E64CBFFF1D7F856200323FCA /* Crud-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crud-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64CC0021D7F856200323FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		E64CC01E1D7F856200323FCA /* Crud-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crud-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64CC0221D7F856200323FCA /* Crud_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crud_IOSUITests.swift; sourceTree = "<group>"; };
 		E64CC0241D7F856200323FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6994EC21D8BD2E30037688D /* LauchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				E64CC0061D7F856200323FCA /* Main.storyboard */,
 				E64CC0091D7F856200323FCA /* Assets.xcassets */,
 				E64CC00B1D7F856200323FCA /* LaunchScreen.storyboard */,
+				E602884B1D88C4CD00AA156E /* notes_online.jpg */,
 				E64CC00E1D7F856200323FCA /* Info.plist */,
 				E62C9BEB1D81C7A800C04A50 /* TodoList.swift */,
+				E6994EC21D8BD2E30037688D /* LauchScreen.swift */,
 			);
 			path = "Crud-IOS";
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E602884C1D88C4CD00AA156E /* notes_online.jpg in Resources */,
 				E64CC00D1D7F856200323FCA /* LaunchScreen.storyboard in Resources */,
 				E64CC00A1D7F856200323FCA /* Assets.xcassets in Resources */,
 				E64CC0081D7F856200323FCA /* Main.storyboard in Resources */,
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62C9BEC1D81C7A800C04A50 /* TodoList.swift in Sources */,
+				E6994EC31D8BD2E30037688D /* LauchScreen.swift in Sources */,
 				E64CC0051D7F856200323FCA /* ViewController.swift in Sources */,
 				E64CC0031D7F856200323FCA /* AppDelegate.swift in Sources */,
 			);

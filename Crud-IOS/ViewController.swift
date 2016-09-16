@@ -19,6 +19,7 @@ class ViewController: UIViewController {
             print("Agregando un elemento a la lista:\(itemTexField.text)")
         
             todoList.addItem(itemTexField.text!)
+        tableview.reloadData()
     }
     
     
@@ -26,6 +27,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tableview.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        tableview.dataSource = todoList
     }
 
     override func didReceiveMemoryWarning() {
